@@ -7,7 +7,7 @@
     --headerH: 70px;
     --ItemCardWidth: 230px;
     --ItemCardHeight: max-content;
-    --padding: 15px;
+    --padding: 18px;
     --sections-gap: 80px;
 }
 
@@ -24,6 +24,7 @@ div, section{
     position: relative;
     width: 100%;
     height: calc(95vh - var(--headerH));
+    min-height: 480px;
     background-color: var(--background);
     margin-bottom: var(--sections-gap);
 }
@@ -75,17 +76,19 @@ div, section{
     font-size: calc(var(--fontSize) / 1.1);
     list-style: none;
     font-weight: 400;
+    display: inline-block;
+    margin-left: 15px;
 }
 
 .hero-section1{
     position: relative;
-    width: 60%;
+    width: 55%;
     height: 100%;
 }
 
 .hero-section2{
     position: relative;
-    width: 40%;
+    width: 45%;
     height: 100%;
     padding-left: 48px;
 }
@@ -119,7 +122,7 @@ div, section{
     content: '';
     position: absolute;
     height: 75%;
-    width: 100%;
+    width: 70%;
     top: 50%;
     left: -12%;
     transform: translateY(-50%);
@@ -250,6 +253,7 @@ div, section{
     padding: 5px 28px;
     flex: 0.45;
     border: var(--border);
+    cursor: pointer;
 }
 
 .itme-price{

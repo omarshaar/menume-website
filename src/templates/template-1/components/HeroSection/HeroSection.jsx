@@ -6,7 +6,8 @@ const HeroSection = () => {
             <div className="hero-shape1"></div>
 
             <div className="hearo-section-body fcc">
-                <div className="hero-section1 fcc">
+                
+                <div className="hero-section1 f-c">
                     <div className="hero-shape2"> </div>
 
                     <div className="hero-image-container">
