@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { odescroll } from '../../../../odescroll/index';
-
+import { RecipCard } from '../../../../components';
 
 
 const ItemsSection = () => {
@@ -22,13 +22,13 @@ const ItemsSection = () => {
                 </div>
 
                 <div className="homeitems-container">
+                <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <RecipCard image="https://images.unsplash.com/photo-1607478900766-efe13248b125?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" /> </div></div>
                     <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <ItemCard image="https://images.unsplash.com/photo-1562440499-64c9a111f713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" /> </div></div>
                     <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <ItemCard image="https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80" /> </div></div>
                     <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <ItemCard image="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" /> </div></div>
                     <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <ItemCard image="https://images.unsplash.com/photo-1607478900766-efe13248b125?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" /> </div></div>
                     <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <ItemCard image="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" /> </div></div>
                     <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <ItemCard image="https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80" /> </div></div>
-                    <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <ItemCard image="https://images.unsplash.com/photo-1607478900766-efe13248b125?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" /> </div></div>
                     <div data-odescroll-container><div className="item-container" data-odescroll="fade-up"> <ItemCard image="https://images.unsplash.com/photo-1562440499-64c9a111f713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" /> </div></div>
                 </div>
             </div>

@@ -19,6 +19,12 @@
     .hero-section2{
         width: 55%;
     }
+    .contact-sections{
+        grid-template-columns: 1fr;
+    }
+    .maps-iframe{
+        height: 300px;
+    }
 }
 
 @media (max-width: 650px) {

@@ -1,6 +1,11 @@
 import '../styles/index.css';
 import '../styles/resp.css';
+// Private Components
 import { HeroSection, Header, ItemsSection} from '../components';
+// Global Components
+import { ContactSection } from '../../../components';
+
+
 
 
 const LandingPage = () => {
@@ -9,6 +14,7 @@ const LandingPage = () => {
             <Header />
             <HeroSection />
             <ItemsSection />
+            <ContactSection />
         </div>
     );
 }

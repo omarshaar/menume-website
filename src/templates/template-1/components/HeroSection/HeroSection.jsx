@@ -6,7 +6,7 @@ const HeroSection = () => {
             <div className="hero-shape1"></div>
 
             <div className="hearo-section-body fcc">
-                
+
                 <div className="hero-section1 f-c">
                     <div className="hero-shape2"> </div>
 
@@ -29,7 +29,7 @@ const HeroSection = () => {
                     </div>
 
                     <div className="hero-actions">
-                        <button> OEDER NOW </button>
+                        <button onClick={()=> document.exitFullscreen()}> OEDER NOW </button>
                     </div>
 
                 </div>

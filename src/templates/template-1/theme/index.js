@@ -10,7 +10,7 @@ const theme = {
         black: "#333333",
         white: "#fff",
         border: "1px #fff solid",
-        shadow: "0 0 7px 0 rgba(26,26,26,0.2)",
+        shadow: "2px 2px 7px 0 rgba(26,26,26,0.2)",
         hover: "",
         active: "",
         disabled: "",
