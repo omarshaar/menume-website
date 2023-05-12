@@ -3,7 +3,7 @@ import '../styles/resp.css';
 // Private Components
 import { HeroSection, Header, ItemsSection} from '../components';
 // Global Components
-import { ContactSection } from '../../../components';
+import { ContactSection, BookTableSection,Footer } from '../../../components';
 
 
 
@@ -14,7 +14,9 @@ const LandingPage = () => {
             <Header />
             <HeroSection />
             <ItemsSection />
+            <BookTableSection />
             <ContactSection />
+            <Footer />
         </div>
     );
 }

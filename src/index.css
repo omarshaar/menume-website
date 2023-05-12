@@ -41,3 +41,8 @@ body {
 .flex-1{
   flex: 1;
 }
+
+
+.bg-secondary{
+  background-color: var(--secondery) !important;
+}

@@ -26,6 +26,7 @@ div, section{
     width: 100%;
     height: calc(95vh - var(--headerH));
     min-height: 480px;
+    max-height: 1000px;
     background-color: var(--background);
     margin-bottom: var(--sections-gap);
 }
@@ -135,6 +136,7 @@ div, section{
     margin: 0 !important;
     font-size: var(--head2FontSize);
     color: #fff;
+    font-family: var(--titleFontFamily);
 }
 
 .hero-section2 h2 span{
@@ -282,6 +284,8 @@ div, section{
 .contact-section-2 {
     width: 100%;
     height: 100%;
+    padding: 25px;
+    background-color: var(--primary);
 }
 
 .contact-sections {
@@ -346,4 +350,70 @@ div, section{
     font-family: var(--fontFamily);
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.booktable-section-container{
+    width: 100%;
+    height: max-content;
+    margin-bottom: var(--sections-gap);
+}
+
+.booktable-section-body{
+    width: var(--pageWidth);
+    height: max-content;
+    margin: 0 auto;
+}
+
+.book-section{
+    width: 100%;
+    margin-top: 25px;
+    padding: 25px;
+    background-color: var(--primary);
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr;
+}
+
+.booksec-fields{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--ItemCardWidth), 1fr));
+    gap: 15px;
+}
+
+.main-footer-container{
+    width: 100%;
+    height: 30vh;
+    min-height: 200px;
+    max-height: 300px;
+    background-color: var(--secondery);
+    padding: 20px 0;
+}
+
+
+.main-footer-body{
+    width: var(--pageWidth);
+    height: max-content;
+    margin: auto;
+
+}
+
+.footer-title{
+    color: #fff;
+    font-weight: 700;
+    font-family: var(--titleFontFamily);
+    margin-bottom: 15px;
+}
+
+.footer-item{
+    color: #fff;
+    font-family: var(--fontFamily);
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.main-footer-body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--ItemCardWidth), 1fr));
+    gap: 15px;
 }

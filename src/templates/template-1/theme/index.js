@@ -19,7 +19,7 @@ const theme = {
         warning: "",
         heroTextColor: "#fff",
 
-        titleFontFamily: "",
+        titleFontFamily: "Montserrat, sans-serif",
         titleFontSize: "20px",
         head2FontSize: "48px",
         subTitleFontSize: "",
