@@ -65,7 +65,7 @@ div, section{
 }
 
 .logo-container h1{
-    font-size: 17px !important;
+    font-size: 18px !important;
 }
 
 .nav-container{
@@ -416,4 +416,20 @@ div, section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(var(--ItemCardWidth), 1fr));
     gap: 15px;
+}
+
+.menu-page-container{
+    width: 100%;
+}
+
+.menupage-header-container{
+    width: 100%;
+    height: var(--headerH);
+}
+
+.menupage-header-body{
+    width: var(--pageWidth);
+    height: 100%;
+    margin: 0 auto;
+
 }

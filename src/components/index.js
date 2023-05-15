@@ -4,6 +4,8 @@ import TextInput from "./text-input/TextInput";
 import TextArea from "./text-aria/TextArea";
 import BookTableSection from "./booktable-section/BookTableSection";
 import Footer from "./footer/Footer";
+import HeaderOrderPage from "./orderpage-header/HeaderOrderPage";
+
 
 export {
     RecipCard,
@@ -11,5 +13,6 @@ export {
     TextInput,
     TextArea,
     BookTableSection,
-    Footer
+    Footer,
+    HeaderOrderPage
 }

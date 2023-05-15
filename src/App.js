@@ -17,7 +17,7 @@ function App() {
     import('./templates/template-1/pages').then(module => {
       const pages = module.default;
       setLandingPage(pages.LandingPage);
-      setOrderPage(pages.OrderPage);
+      setOrderPage(pages.MenuPage);
       setCheckoutPage(pages.CheckoutPage);
     });
   },[]);
@@ -39,7 +39,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={landingPage} ></Route>
-        <Route path='/order' element={orderPage} ></Route>
+        <Route path='/menu' element={orderPage} ></Route>
         <Route path='/checkout' element={checkoutPage} ></Route>
       </Routes>
     </Router>
