@@ -10,13 +10,13 @@ const RecipCard = (p) => {
 
             <div className="item-desription">
                 <p className="item-title"> Cake with creme </p>
-                <p className="item-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam at incidunt amet, commodi maiores illo.
+                <p className="item-description" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam at incidunt amet, commodi maiores illo.">
+                    Lorem ipsum dolor sit amet...
                 </p>
             </div>
 
             <div className="item-action fcb">
-                <p className="itme-price"> Price: <span>12$</span> </p>
+                <p className="itme-price"><span>12$</span> </p>
                 <button className="buy-button"> { shopIcon } </button>
             </div>
 
