@@ -1,0 +1,143 @@
+@media (max-width: 1250px) {
+    :root{
+        --pageWidth: 95%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    .header-top{
+        justify-content: center;
+    }
+    .header-top ul:first-child{
+        display: none;
+    }
+
+    .title-text{
+        font-size: 70px;
+    }
+    .offer-item-container:not(:first-child):not(:last-child){
+        margin-top: 0;
+    }
+    .offer-items-container{
+        margin-top: var(--sections-padding);
+        justify-content: center;
+    }
+
+    .menu-side-r{
+        padding-left: 20px;
+    }
+    .menu-side-l{
+        padding-right: 20px;
+    }
+
+    .book-section-body{
+        display: block;
+    }
+
+    .reservation-section{
+        width: 100%;
+        padding: 15px;
+    }
+    .contact-section{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-header{
+        flex-direction: row-reverse;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-menu-icon{
+        width: max-content;
+    }
+    .logo-container{
+        height: 40px;
+    }
+    .title-text{
+        font-size: 60px;
+    }
+
+    .offer-items-container{
+        flex-wrap: wrap;
+    }
+
+    .menu-itmes{
+        flex-direction: column;
+    }
+    .menu-side-r, .menu-side-l{
+        width: 100%;
+        padding: 0px;
+    }
+    .menu-side-l::after{
+        display: none;
+    }
+    .item-card-container{
+        margin-bottom: 25px;
+    }
+
+    .temp2-footer-body{
+        flex-direction: column;
+    }
+
+    .news-letter-container{
+        order: 1;
+        width: 100%;
+    }
+    .temp2-footer-links{
+        order: 2;
+        margin: 20px 0;
+    }
+    .temp2-footer-socialmedia{
+        order: 3;
+    }
+}
+
+@media (max-width: 654px) {
+    .header-top{
+        display: none;
+    }
+    .title-text{
+        font-size: 50px;
+    }
+    .hero-body .text{
+        font-size: 14px;
+    }
+    .subtitle{
+        font-size: 11px;
+    }
+
+    .offer-item-container{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .title-clear{
+        display: none;
+    }
+
+    .item-card-top{
+        display: block;
+    }
+    .item-card-container{
+        align-items: start;
+    }
+}
+
+@media (max-width: 576px){
+    .drawer-body {
+        width: 100%;
+    }
+    .drawer-body-closed{
+        left: -100%;
+    }
+}

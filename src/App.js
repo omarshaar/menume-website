@@ -3,7 +3,7 @@ import './App.css';
 import './odescroll/styles.css';
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import theme from './templates/template-1/theme';
+import theme from './templates/template-2/theme';
 
 
 
@@ -14,7 +14,7 @@ function App() {
 
   useEffect(()=>{
     setThemeVariables(theme);
-    import('./templates/template-1/pages').then(module => {
+    import('./templates/template-2/pages').then(module => {
       const pages = module.default;
       setLandingPage(pages.LandingPage);
       setOrderPage(pages.MenuPage);

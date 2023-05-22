@@ -6,6 +6,8 @@ import BookTableSection from "./booktable-section/BookTableSection";
 import Footer from "./footer/Footer";
 import HeaderOrderPage from "./orderpage-header/HeaderOrderPage";
 import GridContainer from "./grid-container/GridContainer";
+import Button from "./Button/Button";
+
 
 export {
     RecipCard,
@@ -15,5 +17,6 @@ export {
     BookTableSection,
     Footer,
     HeaderOrderPage,
-    GridContainer
+    GridContainer,
+    Button
 }
